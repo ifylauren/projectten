@@ -1,0 +1,190 @@
+#main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 2%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#mainmain1 {
+    margin-right: 5%;
+}
+
+#mainmain2 {
+    margin-left: 5%;
+}
+
+#handyman {
+    width: 70%;
+    height: 20%;
+}
+
+#header {
+    color: rgba(98, 171, 68);
+    font-style: italic;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#motto {
+    color: rgba(209, 150, 113);
+    font-style: italic;
+    text-align: end;
+    margin-right: 5%;
+}
+
+#sidebar {
+    color:  rgba(98, 171, 68);
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+   
+}
+
+#sidebar2 {
+    background-color:  rgba(98, 171, 68, 0.1);
+    border-bottom: dotted black;
+    border-top: dotted black;
+    margin-top: 10%;
+}
+
+.sidebars {
+    background: linear-gradient(to top, rgb(227, 232, 225), white);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+li {
+    padding-bottom:10px;
+    padding-top: 10px;
+    list-style-type: none;
+
+}
+
+li::before {
+border-right: 2px solid rgba(98, 171, 68);
+border-bottom: 2px solid rgba(98, 171, 68);
+width: 10px;
+height: 10px;
+transform: rotate(-45deg);
+content: "";
+display: inline-block;
+margin-right: 5px
+}
+
+
+#contact, #links {
+    color: rgba(98, 171, 68);
+    background-color:  rgba(98, 171, 68, 0.1);
+    border-bottom: dotted black;
+    border-top: dotted black;
+}
+
+#links, form, #categories, #othert, #portfolio, #enoma, #testimony {
+    color: rgb(98, 171, 68);
+}
+
+#form {
+background-color: rgba(227, 232, 225, 0.3) ;
+margin-top: 5%;
+padding-top: 10%;
+}
+
+#submit, #login {
+background-color: rgb(201, 237, 187);
+margin-bottom: 20%;
+
+}
+
+#name, #E-mail, #Message, #submit {
+    font-style: italic;
+    margin-left: 5%;
+    
+}
+
+#name1 {
+    font-style: italic;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+
+.input {
+    border-style: none;
+    background-color: rgb(226, 230, 225);
+}
+
+#tandl {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#title {
+    background: linear-gradient(to bottom, rgb(220, 242, 201), white);
+    margin-right: 3%;
+    
+}
+
+#details {
+    background: linear-gradient(to bottom, rgb(245, 235, 201), white);
+}
+
+#welcome, #form2, #login {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+/*#free-space {
+    height:20px;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(224, 235, 221), white);
+}
+
+#free-space1 {
+    height:20px;
+    width: 100%;
+    background: linear-gradient(to top, rgb(224, 235, 221), white);
+}
+*/
+#enoma {
+    border-bottom: dotted black;
+}
+
+#testimony, #categories {
+    border-bottom: dotted black;
+}
+
+#osas {
+    width: 20%;
+    height: 20%;
+    float: right;
+
+}
+
+#peter {
+    width: 20%;
+    height: 20%;
+    float: right;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+#portfolio, #othert {
+    margin-left: 60%;
+}
+
+a {
+    color: rgb(98, 171, 68);
+    text-decoration: none;
+    
+}
+a:link {
+    color: rgb(98, 171, 68);
+}
+
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: pink;
+}
